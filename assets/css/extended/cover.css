@@ -1,0 +1,35 @@
+
+
+.entry-cover1 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry-cover1 img {
+    border-radius: var(--radius);
+    pointer-events: none;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.post-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entry-cover {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: unset;
+
+    max-height: 150px;
+    display: grid;
+    align-content: center;
+}
