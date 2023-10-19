@@ -11,10 +11,10 @@
 .entry-cover1 img {
     border-radius: var(--radius);
     pointer-events: none;
-    max-height: 150px;
+    max-height: 200px;
     width: auto;
     height: auto;
-    margin-bottom: 40px;
+    margin: auto;
 }
 
 .post-entry {
