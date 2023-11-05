@@ -1,4 +1,11 @@
 <div class="profile">
+    <script>
+        // 获取子元素
+        const childDiv = document.querySelector('.profile');
+        // 获取子元素的父元素
+        const parentDiv = childDiv.parentElement.parentElement;
+        parentDiv.setAttribute('name', 'profile-page')
+    </script>
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}

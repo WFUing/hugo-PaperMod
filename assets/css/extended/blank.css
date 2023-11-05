@@ -33,6 +33,17 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .dark {
     --code-bg: rgba(175, 184, 193, 0.2); /* rgb(55, 56, 62); */
 }
+
+body[name = 'profile-page'] {
+    background-image: url("/img/white.jpg");
+    background-size:100% 100%;
+}
+
+body[name = 'profile-page'].dark   {
+    background-image: url("/img/dark.avif");
+    background-size:100% 100%;
+}
+
 /* 链接样式 */
 .post-content a {
     color: #0969da;
